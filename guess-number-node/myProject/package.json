@@ -1,0 +1,25 @@
+{
+  "name": "guess-number",
+  "version": "1.0.0",
+  "description": "该Workshop部分会采用TDD的方式进行开发，但是TDD并不是本活动的重点，重点是如何写好单元测试。 写好单元测试与TDD相辅相成，很难完全分离。同样的题目也可以用于TDD的练习，但是更侧重于TDD的细节，且时间要更长。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^2.4.1"
+  },
+  "dependencies": {
+    "mock-stdin": "^0.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yhl221/guess-number.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yhl221/guess-number/issues"
+  },
+  "homepage": "https://github.com/yhl221/guess-number#readme"
+}

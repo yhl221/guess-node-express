@@ -1,0 +1,20 @@
+{
+  "name": "guess-number-express",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./client.js",
+    "server": "DEBUG=guess-number-express:* nodemon ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "express": "~4.13.4",
+    "morgan": "~1.7.0",
+    "request": "^2.74.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.10.0"
+  }
+}
